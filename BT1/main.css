@@ -1,0 +1,68 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.phandau{
+    padding: 20px;
+}
+.phanthan{
+    width:100%;
+    margin:0 auto;
+}
+.bentrai{
+    float: left;
+    width: 30%;
+    background-color: rgb(55, 250, 234);
+}
+.benphai{
+    float:right;
+    background-color: rgb(82, 238, 62);
+    width:70%;
+    border: 1px solid gray;
+    padding: 15px;
+}
+.clear{
+    clear: both;
+}
+.menu{
+    list-style: none;
+    text-align: center;
+}
+.menu li{
+    border: 1px solid gray;
+}
+.menu li a{
+    text-decoration: none;
+    background-color: lightgreen;
+    color: black;
+    display: block;
+    padding: 10px;
+}
+.menu li a:hover{
+    color: crimson;
+    background-color: cadetblue;
+}
+
+.nav_menu{
+    list-style: none;
+    text-align:center;
+}
+.nav_menu li{
+    padding:0px 10px;
+    display: inline-block;
+    border-right: 2px solid black
+}
+.nav_menu li a{
+    color: black;
+}
+.nav_menu li a:hover{
+    color: brown;
+    font-weight: bold ;
+}
+.chantrang{
+    background-color: brown;
+}
